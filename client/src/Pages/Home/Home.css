@@ -1,0 +1,328 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\fabian-gieske-fl3xaLcJ-30-unsplash (3).jpg'), #C4C4C4;
+    background-size: 200%;
+    background-position: 100% 90%;
+    height: 270vh;
+}
+
+.headers{
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+
+}
+
+.MyDogsDiv{
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+    
+}
+
+.MyDogsButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.287);
+    color: white;
+    width: 30vh;
+    height: 35px;
+    border:none;
+    font-size: 20px;
+
+}
+
+.MyDogsDiv a{
+    text-decoration: none;
+}
+
+.MyDogsButton:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.602);
+}
+
+.SearchBar {
+    display: flex;
+
+}
+
+
+.searchInput {
+    width: 40vh;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.287);
+    border: none;
+    margin-left: 5px;
+    
+}
+
+.searchInput::placeholder{
+    color: white;
+}
+
+.btnSearch{
+    position: absolute;
+    padding: 10px;
+    right:120px;
+    bottom: 0px;
+    top:113px;
+    width: fit-content;
+    background-color: transparent;
+    border:none;
+    cursor: pointer;
+}
+
+.searchIcon{
+    width:20px;
+}
+
+.NewDog{
+    position: relative;
+    top:0vh;
+    right: -150vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 300px;
+
+}
+
+.NDtext{
+    display: flex ;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin: 0;
+    color: white;
+    text-align: center;
+}
+
+.NewDog a {
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.NewDog a:hover{
+    color: black;
+}
+
+.GroupDD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.DropDown {
+    width: 50vh;
+    height: 35px;
+    background-color:rgba(0, 0, 0, 0.287);
+    border-width: 2px;
+    font-size: 20px;
+    color: white;
+}
+
+.DropDown:hover{
+    cursor: pointer;
+}
+
+
+
+.DogContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: -60px;
+
+}
+
+
+.BoxInside {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.287);
+    width: 65%;
+    height: fit-content;
+    margin: 20px;
+    color: white;
+    border-radius: 10px;
+    align-items: center;
+    
+}
+
+.BoxInside:hover{
+    background-color: rgba(0, 0, 0, 0.602);
+}
+
+.doggies{
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    
+}
+
+.textContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+
+.Breed {
+    display: flex;
+    justify-self: center;
+    font-size: 35px;
+    text-align: center;
+    margin: 0;
+    font-weight: bold;
+}
+
+.navlink{
+    text-decoration: none;
+    color: white;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+
+.Temperament {
+    display: flex;
+    justify-self: center;
+    font-size: 20px;
+    text-align:center;
+
+}
+
+
+.PrevNext {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: row;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    height: 20px;
+
+}
+
+.btnH{
+
+    align-items: flex-end;
+    width: 150px;
+    height: 50px;
+    background: none;
+    border-width: medium;
+    border-color: rgb(0, 0, 0, 0.287) ;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px;
+}
+
+.btnH:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0, 0.287);
+
+}
+
+@media all and (max-width:480px){
+    .container {
+        background-attachment: fixed;
+        background-size:900px;
+        background-position-x:100%;
+        background-position-y: 20%;
+    }
+
+    .headers{
+        display: flex; 
+        flex-direction: column;    
+    }
+
+    .GroupDD{
+        display: flex;
+        flex-direction: column;    
+    }
+
+    .MyDogsButton{
+        width: 50vh;
+        font-size: 25px; 
+        justify-content:left; 
+    }
+
+    .searchInput {
+        width: 49vh;
+        height: 35px;
+        margin: 0;        
+    }
+
+    .SearchBar {
+        margin-top: 5px;
+    }
+
+    .btnSearch{
+        position: absolute;
+        padding: 10px;
+        right:20px;
+        bottom: 0px;
+        top:230px;
+        width: fit-content;
+        background-color: transparent;
+        border:none;
+        cursor: pointer;
+    }
+
+    .NewDog{
+        position: relative;
+        top:0vh;
+        left: 3vh;
+       margin-bottom: 8vh;
+    
+    }
+
+    .NDtext{
+        font-size: 20px;
+    }
+    
+    .NewDog a {
+        font-size: 20px;
+    }
+
+    .DogContainer {
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .BoxInside {
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+        height: fit-content; 
+        justify-items: center;
+        
+    }
+
+    .PrevNext {
+        margin-bottom: 60px;
+    }
+
+    .btnH{
+        width: 100px;
+        font-size: 20px;
+    }
+
+}
+
+@media all and (min-width:1600px){
+    .container {
+        background-size: 130%;
+        background-position: 100% 90%;
+    }
+}

@@ -1,0 +1,68 @@
+.MainContainer{
+    width: 100%;
+    height: 100vh;
+    background-image: url("C:\Users\Usuario\Henry\DogApp\client\src\Images\landing.jpg");
+    background-size: 100%;
+    background-position: 0% 70%;
+}
+
+.Landing{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 30vh;
+    padding-left: 15vh;
+    
+}
+
+.LandingA{
+    width: 150px;
+}
+
+.btn {
+    background: rgba(255, 255, 255, 0.25);
+    border-radius: 100px;
+    border-width:1px;
+    border-color:rgb(255, 255, 255);
+    width: 150px;
+    font-size: 30px;
+    font-style: bold;
+    color: rgb(255, 255, 255);
+    margin-top: 25px;
+}
+
+.Landing button:hover {
+    cursor:pointer;
+}
+
+.Title {
+    font-size: 80px;
+    margin: 0;
+    color: white;
+    
+}
+
+
+@media all and (max-width:480px){
+    .MainContainer{
+        background-image: url("C:\Users\Usuario\Henry\DogApp\client\src\Images\jamie-street-Zqy-x7K5Qcg-unsplash.jpg");
+        background-size: 500px;
+        background-position: 50% 100%;
+    }
+
+    .Landing{
+        padding-top: 40vh;
+        padding-left: 10px;
+    }
+
+    .Title {
+        font-size: 50px;
+
+    }
+
+    .btn {
+        color:white;
+        
+    }
+
+}

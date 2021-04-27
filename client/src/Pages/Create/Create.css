@@ -1,0 +1,110 @@
+.CreateContainer {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* justify-content:center; */
+    align-items: center;
+    background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\1402992_10202196634228044_193641969_o (2).jpg');
+    background-position: 100% 20% ;
+    background-size: 100%;
+}
+
+.CreateBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 100vh;
+    margin-bottom: 0;
+}
+
+.CreateTitle{
+    color: white;
+}
+
+.CreateForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CreateForm input, select{
+    margin: 5px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0.287);
+    color: white;
+
+}
+
+.CreateForm input::placeholder{
+    color: white;
+}
+
+.tempPuppies{
+    color: white;
+    font-size: 15px;
+
+}
+
+.TempSelect {
+    height: 100px;
+    font-size: 20px;
+}
+
+.createBtn{
+    background: none;
+    border-color: rgb(0, 0, 0, 0.287) ;
+    color: white;
+    font-size: 20px;
+}
+
+.createBtn:hover{
+    cursor: pointer;
+}
+
+@media all and (max-width:480px){
+    .CreateContainer {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        /* justify-content:center; */
+        align-items: center;
+        background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\taylor-kopel-WX4i1Jq_o0Y-unsplash (2).jpg');
+        background-position: 100% 20% ;
+        background-size: 100%;
+    }
+
+    .CreateBox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 13px;
+        margin-bottom: 0;
+    }
+}
+
+@media all and (min-width:1600px){
+
+    .CreateBox{
+        margin-top: 5vh;
+    }
+
+    .CreateTitle{
+        font-size: 50px;
+    }
+
+    .CreateForm input, select{
+        width: 400px;
+        height: 40px;
+        font-size: 25px;
+    }
+
+    .tempPuppies{
+        font-size: 20px;
+    
+    }
+
+}

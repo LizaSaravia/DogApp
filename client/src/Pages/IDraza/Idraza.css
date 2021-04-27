@@ -1,0 +1,72 @@
+.TheDogContainer{
+    display: flex;
+    flex-direction: column;
+    background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\artem-sapegin-CdFNIlajbCw-unsplash (2).jpg');
+    background-size: 100%;
+    background-position: 100% 100% ;
+    height: 120vh;
+}
+
+.TheDog {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.287);
+    width: 50%;
+    height: fit-content;
+    margin-left: 50vh;
+    margin-top: 20px;
+    border-radius: 15px;
+}
+
+.TheDogPic{
+    width: 50%;
+    height: 40%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.TheDogName {
+    font-size: 35px;
+    color: white;
+}
+
+.TheDogDetails {
+    margin-top: 2px;
+    font-size: 20px;
+    color: white;
+    margin-left: 5px;
+}
+
+@media all and (max-width:480px){
+    .TheDogContainer{
+        background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\erda-estremera-JBrbzg5N7Go-unsplash (2).jpg');
+        background-size: 115%;
+        background-position: 100% 100% ;
+        height: 120vh;
+    }
+
+    .TheDog {
+        width: 90%;
+        height: fit-content;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border-radius: 15px;
+    }
+
+    .TheDogPic{
+        width: 70%;
+        height: 60%;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+}
+
+@media all and (min-width:1600px){
+    .TheDogContainer {
+        background-position: 100% 100% ;
+        height: 100vh;
+    }
+}

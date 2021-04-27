@@ -1,0 +1,39 @@
+.FooterContainer{
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: rgba(255, 255, 255, 0.445);
+
+}
+
+.footerIcon{
+    width: 40px;
+    height: 40px;
+}
+
+.footerText{
+    margin-right: 20px;
+}
+
+@media all and (max-width:480px){
+    .FooterContainer{
+        width: 70%;
+        height: 40px;
+        margin-right: -15px;
+        margin-bottom: -5px;
+    }
+
+    .footerIcon{
+        width: 40px;
+        height: 40px;
+    }
+
+    .footerText{
+        margin-right: 10px;
+    }
+
+}

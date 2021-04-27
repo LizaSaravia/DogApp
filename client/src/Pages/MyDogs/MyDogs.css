@@ -1,0 +1,46 @@
+.MyDogsContainer{
+    background-attachment: fixed;
+    background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\katie-bernotsky-CB9Sx7wyAVQ-unsplash (2).jpg');
+    background-size: 100%;
+    background-position: 100% 10%;
+    height: 200vh;
+}
+
+.BoxInside{
+    margin: 15px;
+    height: fit-content;
+}
+
+.MyDogPicture{
+    width: 30%;
+    border-radius: 8px;
+    margin:15px
+}
+
+.MyDogName{
+    display: flex;
+    justify-self: center;
+    font-size: 25px;
+}
+
+@media all and (max-width:480px){
+    .MyDogsContainer{
+        background-image: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\lucrezia-carnelos-0liYTl4dJxk-unsplash (2).jpg');
+        background-attachment: fixed;
+        background-size: 130%;
+        background-position: 100% 0%;
+        height: 180vh;
+    }
+
+    .BoxInside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+
+    .MyDogPicture{
+        width: 50%;
+    }
+
+}
