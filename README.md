@@ -4,7 +4,7 @@
   <img height="200" src="./dog.png" />
 </p>
 
-## Objetivos del Proyecto
+## About this project
 
 In this really cute app I worked with Node.js, Sequelize and PostgreSQL for the back, and React, Redux, HTML and CSS for the front. Everything using JavaScript.
 
