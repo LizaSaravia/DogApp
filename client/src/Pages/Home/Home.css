@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     background: url('C:\Users\Usuario\Henry\DogApp\client\src\Images\fabian-gieske-fl3xaLcJ-30-unsplash (3).jpg'), #C4C4C4;
-    background-size: 200%;
-    background-position: 100% 90%;
-    height: 270vh;
+    background-size: 190%;
+    background-position: 100% 100%;
+    height: 400vh;
 }
 
 .headers{

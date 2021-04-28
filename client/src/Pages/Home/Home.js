@@ -122,13 +122,6 @@ function Home(props) {
                         placeholder='Search...'
                         className = 'searchInput'
                         />
-                        <button className='btnSearch'>
-                            <img
-                                className='searchIcon'
-                                src={SearchIcon}
-                                alt="search icon"
-                            />
-                        </button>
                     </div>
                 </form>
 

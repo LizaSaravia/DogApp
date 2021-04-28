@@ -32,7 +32,6 @@ function Idraza(props) {
                   <p className = 'TheDogDetails'>Height : {props.dogDetails.height? props.dogDetails.height.imperial : 'Not existent'}</p>
                   <p className = 'TheDogDetails'>Weight : {props.dogDetails.weight? props.dogDetails.weight.imperial : 'Not existent'}</p>                    
                   <p className = 'TheDogDetails'>Life Span : {props.dogDetails.life_span}</p>
-                  <p className = 'TheDogDetails'>Origin : {props.dogDetails.origin}</p>
                 </div>
               
                 : <h1>Oops, we had a problem finding this dog!</h1>

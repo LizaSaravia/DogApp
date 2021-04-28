@@ -16,7 +16,7 @@ router.post('/', async function (req, res) {
 
         if(name) {
 
-            res.redirect('http://localhost:3000/home')
+            res.redirect('http://localhost:3000/newdogs')
             let newDog = await Breed.create({
                 name,
                 gender,
